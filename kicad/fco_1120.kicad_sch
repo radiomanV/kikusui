@@ -1,0 +1,88 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 7f3ebab5-5585-4f05-9ee1-3dd8099a2dda)
+
+  (paper "A4")
+
+  (title_block
+    (date "2023-06-14")
+    (rev "1.0")
+    (company "radioman")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 150.876 19.685) (size 52.07 23.495) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 33d61f3c-5546-4626-98cf-02103615937d)
+    (property "Sheetname" "Input" (at 150.876 18.9734 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "input.kicad_sch" (at 150.876 43.7646 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "fco_1120"
+        (path "/7f3ebab5-5585-4f05-9ee1-3dd8099a2dda" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 94.996 19.685) (size 52.07 23.495) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 8ae0418a-b53a-4341-bccb-78e96183afad)
+    (property "Sheetname" "Display" (at 94.996 18.9734 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "display.kicad_sch" (at 94.996 43.7646 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "fco_1120"
+        (path "/7f3ebab5-5585-4f05-9ee1-3dd8099a2dda" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 205.359 19.685) (size 52.705 23.495) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid af45c2c3-70f0-45f3-a2a5-bfa18988c5cf)
+    (property "Sheetname" "Psu" (at 205.359 18.9734 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "psu.kicad_sch" (at 205.359 43.7646 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "fco_1120"
+        (path "/7f3ebab5-5585-4f05-9ee1-3dd8099a2dda" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 38.735 19.685) (size 52.705 24.13) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid bce6f678-f297-424d-ba48-cc6d2e524e08)
+    (property "Sheetname" "Main" (at 38.735 18.9734 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "main.kicad_sch" (at 38.735 44.3996 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "fco_1120"
+        (path "/7f3ebab5-5585-4f05-9ee1-3dd8099a2dda" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
